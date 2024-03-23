@@ -11,6 +11,7 @@
 }
 
 body {
+	height: 100vh;
 	background: var(--MainColor);
 	color: var(--TextColor);
 }
@@ -51,42 +52,40 @@ nav button {
 }
 
 main {
-	max-width: 100vw;
+	width: 100vw;
 	height: 100vh;
 	background-color: var(--TextColor);
 	color: var(--MainColor);
 }
 
 .about {
-	max-width: 100%;
-	height: 800px;
 	display: flex;
-	gap: 14px;
+	justify-content: space-between;
+	padding: 28px
 }
 
-.about .title {
-	width: 50%;
-	font-size: 6em;
+.about-title {
+	margin: -28px 0 28px 28px;
+	font-size: 7rem;
+	transform: rotate(-45deg);
 }
 
-.about .title h2 {
-	margin: 30% 0 0 14px;
-	transform: rotate(-15deg);
+.about-article {
+	width: 400px;
+	height: 400px;
 }
 
-.about .story {
-	width: 600px;
+.about-article img {
+	width: 100%;
 	height: 100%;
-	font-size: 1.3rem;
-	scroll-behavior: true;
 }
 
-.about .story .myPic {
-	height: 500px;
-	margin: 14px;
+.article-division {
+	margin-right: 28px;
 }
 
-.about .story .myPic img {
-	height: 500px;
+.article-text {
+	margin-top: 14px;
+	width: 500px;
+	font-size: 1.2rem;
 }
-
