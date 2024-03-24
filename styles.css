@@ -39,6 +39,19 @@ nav button {
 	border-radius: 8px;
 	background: var(--TextColor);
 	border: unset;
+	display: flex;
+	justify-content: space around;
+	align-items: center;
+	gap: 10px;
+}
+
+nav button a {
+	color: var(--MainColor);
+	text-decoration: none;
+}
+
+nav button a:hover {
+	text-decoration: underline;
 }
 
 .logoName {
@@ -89,3 +102,42 @@ main {
 	width: 500px;
 	font-size: 1.2rem;
 }
+
+.projects{
+	max-width: 100%;
+	max-height: 100%;
+	padding: 40px;
+	background: var(--MainColor);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.work .project {
+	width: 300px;
+	margin-left: 50px;
+}
+
+.work .project:last-of-type {
+	margin-right: 0;
+}
+
+.work .project img {
+	width: 300px;
+}
+
+.work .project #project2 {
+	height: 185px;
+}
+
+.work .project .project-text {
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;
+}
+
+.work .project .project-text p{
+	z-index: 999;
+	width: 300px;
+	font-size: 1.2rem;
+	color: white300px
