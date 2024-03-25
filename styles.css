@@ -104,40 +104,33 @@ main {
 }
 
 .projects{
-	max-width: 100%;
-	max-height: 100%;
-	padding: 40px;
-	background: var(--MainColor);
+	width: 100%;
+	padding: 14px;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: space-between;
 }
 
-.work .project {
+.projects img {
 	width: 300px;
-	margin-left: 50px;
+	margin-bottom: 14px;
 }
 
-.work .project:last-of-type {
-	margin-right: 0;
-}
-
-.work .project img {
-	width: 300px;
-}
-
-.work .project #project2 {
-	height: 185px;
-}
-
-.work .project .project-text {
-	width: 300px;
-	height: 300px;
-	margin-top: 10px;
-}
-
-.work .project .project-text p{
-	z-index: 999;
-	width: 300px;
+.projects article {
+	padding: 10px;
 	font-size: 1.2rem;
-	color: white300px
+	color: white;
+}
+
+.projects article p {
+	width: 350px;
+	margin-right: 10px;
+}
+
+#project-2 {
+	height: 190px;
+	margin-bottom: 14px;
+}
+
+#project-2 img {
+	height: 100%;
+}
